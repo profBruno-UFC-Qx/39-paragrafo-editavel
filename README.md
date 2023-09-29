@@ -1,8 +1,8 @@
 ## Descrição
 
-Neste exercício, você irá criar uma página web que exibe uma lista produtos e utilizará CSS para aplicar alguns estilos nessa lista.
+Neste exercício, você vai uma página que possui um parágrafo cujo conteúdo pode ser editado pelo usuário.
 
-O objetivo deste exercício é praticar o uso de alguns seletores mais básicos de CSS.
+Objetivo desse exercício é praticar a manipulação de elementos HTML usando JavaScript.
 
 **Todas as alterações devem ser feitas nos arquivos já existentes**
 
@@ -12,11 +12,17 @@ O objetivo deste exercício é praticar o uso de alguns seletores mais básicos 
 
 ## Instruções:
 
- 1. O arquivo **index.html** possui o código da lista
- 1. Usando seletores CSS, aplique os estilos a seguir:
-  - Todos os elementos *h2* devem ter o `font-size` igual a *1.2em*.
-  - Todos os elementos *p* devem ter o `color` igual a *#323334*.
-  - Todos os elementos *p.price* devem ter o `font-weight` igual a *bold*.
+1. Altere o arquivo **src/index.html** e adicione um parágrafo à página contendo o texto "Me altere, por favor!".
+2. Adicione um botão à página com o texto "Editar parágrafo".
+  - **O texto tem que ser exatamente este. Caso contrário o teste irá falhar.** 
+4. Quando o botão "Editar parágrafo" for clicado:
+  - Faça com que o parágrafo seja editável, permitindo que o aluno insira um novo texto.
+  - O botão "Editar parágrafo" agora deve ser renomeado para "Salvar mudança".
+5. Quando o botão "Salvar mudança" for clicado:
+  - O novo texto inserido deve substituir o conteúdo do parágrafo.
+  - O parágrafo não deve mais ser editável.
+  - O botão deve ser renomeado para "Editar parágrafo" novamente
+6. Teste o exercício abrindo o arquivo HTML em um navegador e interagindo com o botão.
 
 
 **Certifique-se de validar seu código HTML usando um validador como o [W3C Markup Validation Service](https://validator.w3.org/), para garantir que seu código esteja sem erros e bem formado**.
